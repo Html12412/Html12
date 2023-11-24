@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex HTML Example</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #f4f4f4;
+            padding: 2em;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Complex HTML Example</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Featured Section</h2>
+            <p>This is the featured section of your complex HTML example. It can contain dynamic content and images.</p>
+        </section>
+
+        <section>
+            <h2>Another Section</h2>
+            <p>This is another section with some more content. You can customize it as needed.</p>
+        </section>
+
+        <section>
+            <h2>Yet Another Section</h2>
+            <p>Here's another section to make things more complex. You can add forms, media, or any other HTML elements.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Complex HTML Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
